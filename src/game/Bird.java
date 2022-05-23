@@ -27,7 +27,7 @@ public class Bird extends Sprite implements SizeManager {
      */
     public Bird(int x, int y, int speed) {
         super(x, y, speed);
-        ImageIcon path = new ImageIcon("D:/suli/3.félév/Prog 3/nhf/HW/src/resources/bird.png");
+        ImageIcon path = new ImageIcon("src/resources/bird.png");
         bird = path.getImage();
         canFly = true;
     }
@@ -55,7 +55,7 @@ public class Bird extends Sprite implements SizeManager {
                 return MOVE_UP;
             }
         }
-        return 0;       //if noone is hitting space, the bird is not moving upwards
+        return 0;       //if no one is hitting space, the bird is not moving upwards
     }
 
     /**

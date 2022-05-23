@@ -22,7 +22,7 @@ public class Background extends Sprite {
      */
     public Background(int x, int y, int speed) {
         super(x, y, speed);
-        ImageIcon path = new ImageIcon("D:/suli/3.félév/Prog 3/nhf/HW/src/resources/background.png");
+        ImageIcon path = new ImageIcon("src/resources/background.png");
         background = path.getImage();
     }
 
